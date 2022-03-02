@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Act3"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spin1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:entries="@array/nama"/>
+
+    <Button
+        android:id="@+id/btn_ambil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Ambil Data" />
+
+    <TextView
+        android:id="@+id/data_nama"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <Button
+        android:id="@+id/btnnext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back >>"
+        android:background="@color/white"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
